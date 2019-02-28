@@ -1,3 +1,22 @@
+Light adaptations to Hypothesis browser extension
+=================================================
+
+The plugin slightly modifies the Hypothesis extension to
+prepare it for use in qualitative analysis of web pages. For
+example, it hides the text in annotations, so that
+annotators can't see each other's annotations to encourage
+independent judgments.
+
+To build this plugin, see the instructions
+[here](https://github.com/andrewhead/browser-extension/blob/master/docs/building.md).
+To upload annotations to the production Hypothesis server,
+build the extension with the production configuration like
+so:
+
+```bash
+make SETTINGS_FILE=settings/chrome-prod.json
+```
+
 Hypothesis browser extension(s)
 ===============================
 
